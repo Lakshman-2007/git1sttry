@@ -6,3 +6,4 @@ def company_api():
             "Location":"USA",
             "employees":1000}]
 app.run(host="0.0.0.0",port=8000,debug=True)
+print("Server is running on http://0.0.0.0:8000")
